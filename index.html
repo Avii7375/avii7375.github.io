@@ -1,7 +1,205 @@
-<html>
-<head>My Page</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmable Omni-Directional Robotic Arm Vehicle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #444;
+            border: 1px solid #555;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .header {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #666;
+        }
+        
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .description {
+            padding: 20px;
+            font-size: 18px;
+            color: #ccc;
+        }
+        
+        .features {
+            padding: 20px;
+        }
+        
+        .features ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .features li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #666;
+            display: flex;
+            align-items: center;
+        }
+        
+        .features li::before {
+            content: "\2022";
+            font-weight: bold;
+            font-size: 1.5em;
+            color: #999;
+            margin-right: 5px;
+        }
+        
+        .specs {
+            padding: 20px;
+        }
+        
+        .specs table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .specs th, .specs td {
+            border: 1px solid #666;
+            padding: 10px;
+            text-align: left;
+            color: #ccc;
+        }
+        
+        .specs th {
+            background-color: #555;
+        }
+        
+        .video {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .video iframe {
+            max-width: 100%;
+            height: 500px;
+            border: none;
+        }
+        
+        .contact {
+            padding: 20px;
+        }
+        
+        .contact ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+                padding: 10px;
+            }
+            .image img {
+                border-radius: 0;
+            }
+            .features li {
+                padding: 5px;
+            }
+            .specs table {
+                font-size: 14px;
+            }
+            .video iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
 <body>
-
-  <h1>My Page</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Programmable Omni-Directional Robotic Arm Vehicle</h1>
+        </div>
+        <div class="image">
+            <img src="Designer2.jpeg" alt="Robotic Arm Vehicle Image">
+        </div>
+        <div class="description">
+            <h2>Description</h2>
+            <p>This robotic arm vehicle is designed for omnidirectional movement and can be programmed to perform various tasks.</p>
+        </div>
+        <div class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Omni-directional movement</li>
+                <li>Programmable using various languages</li>
+                <li>Robotic arm with 3-4 DOF</li>
+                <li>Integrated sensors for navigation</li>
+                <li>Durable and compact design</li>
+                <li>Wireless communication</li>
+                <li>Real-time monitoring</li>
+            </ul>
+        </div>
+        <div class="specs">
+            <h2>Technical Specifications</h2>
+            <table>
+                <tr>
+                    <th>Dimension</th>
+                    <td>30 cm x 20 cm x 15 cm</td>
+                </tr>
+                <tr>
+                    <th>Weight</th>
+                    <td>5 kg</td>
+                </tr>
+                <tr>
+                    <th>Power Supply</th>
+                    <td>12V DC</td>
+                </tr>
+                <tr>
+                    <th>Programming Language</th>
+                    <td>C, C++, Python, etc.</td>
+                </tr>
+                <tr>
+                    <th>Communication</th>
+                    <td>Wireless (Wi-Fi, Bluetooth)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="video">
+            <h2>Demonstration Video</h2>
+            <img src="Designer2.jpeg" alt="Robotic Arm Vehicle Image" height="80%" width="100%">
+        </div>
+        <div class="contact">
+            <h2>Get in Touch</h2>
+            <p>For more information, please contact us at:</p>
+            <ul>
+                <li>Email: <a href="mailto:avinash.myself03@gmail.com">avinash.myself03@gmail.com</a></li>
+                <li>Phone: +1-123-456-7890</li>
+                <li>Address: 123 Main St, Anytown, USA</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
